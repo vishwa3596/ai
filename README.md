@@ -1,3 +1,11 @@
+how to setup the project 
+
+IMPORTANT - node should be install along with npm.
+run the command npm install.
+then run npm start to start the website in the development mode.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

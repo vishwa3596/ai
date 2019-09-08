@@ -355,11 +355,55 @@ label:hover{
 .about1{
     padding: 0px;
     position: relative;
-    top: 20%;
-    height: 500px;
-    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 5px;
     background-color: #343233;
 }
+.heading-about{
+    margin-left: 2rem;
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #EFDAB9;
+}
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #333333;
+    padding: 4px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 0.8rem;
+    margin: 2px;
+    color: #EFDAB9;
+    box-shadow: 0 0 2px rgba(198,122,255, 0.5);
+}
+.div2{
+    height: 400px;
+    width: 500px;
+    margin: 2px;
+    padding: 4px;
+    background-color: #333333;
+    color: #EFDAB9;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 0.8rem;
+    box-shadow: 0 0 2px rgba(198,122,255, 0.5);
+}
+.div3{
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 0.8rem;
+    padding: 4px;
+    background-color: #333333;
+    color: #EFDAB9;
+    box-shadow: 0 0 2px rgba(198,122,255, 0.5);
+}
+
+
+
 
 
 
