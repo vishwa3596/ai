@@ -1,10 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
-
-.homepage h2{
+.homepage{
     position: relative;
     top: 20%;
     left: 41%;
+}
+.homepage h2{
+    position: relative;
     font-family: 'Ubuntu Mono', monospace;
     text-transform: uppercase;
     font-size: 2.8rem;
@@ -15,11 +17,11 @@
     text-transform: uppercase;
     text-align: center;
     padding: 5px;
-    margin: 5px;
+    margin-left: 58px;
+    margin-bottom: 5px;
     font-size: 0.6rem;
     position: relative;
-    top: 10%;
-    left: 44%;
+
     height: 25px;
     width: 125px;
     display: block;
@@ -38,11 +40,11 @@
     text-transform: uppercase;
     text-align: center;
     padding: 5px;
-    margin: 5px;
+    margin-left: 58px;
+    margin-bottom: 5px;
     font-size: 0.6rem;
     position: relative;
-    top: 8%;
-    left: 44%;
+
     height: 25px;
     width: 125px;
     display: block;
@@ -65,7 +67,7 @@
     font-size: 0.6rem;
     position: absolute;
     top: 5%;
-    left: 85%;
+    left: 45%;
     height: 25px;
     width: 125px;
     display: block;
