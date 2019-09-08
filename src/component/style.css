@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+.homepage h2{
+    position: relative;
+    top: 20%;
+    left: 40%;
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    color: #EFDAB9;
+}
+.Link{
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.6rem;
+    position: relative;
+    top: 10%;
+    left: 44%;
+    height: 25px;
+    width: 125px;
+    display: block;
+    background-color: #FFF288;
+    color: #080808;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+}
+.Link:hover{
+    background-color: #FFE511;
+}
+.record{
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.6rem;
+    position: relative;
+    top: 8%;
+    left: 44%;
+    height: 25px;
+    width: 125px;
+    display: block;
+    background-color: #FFF288;
+    color: #080808;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+}
+.record:hover{
+    background-color: #FFE511;
+}
+.about{
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.6rem;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    height: 25px;
+    width: 125px;
+    display: block;
+    background-color: #FFF288;
+    color: #080808;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+}
+.about:hover{
+    background-color: #FFE511;
+}
+
+.in-result{
+    position: absolute;
+    left: -250%;
+    margin: 300px;
+}
+/***************************************** #upload-area# ********************************************************/
+.upload-area{
+    position: relative;
+    top: 50%;
+    left: 40%;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 26px;
+    padding: 5px;
+    text-align: center;
+    color: #EFDAB9;
+    height: 600px;
+    width: 300px;
+}
+.upload-area h2{
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    color: #EFDAB9;
+}
+
+.upload-area form{
+    margin: 50px;
+    position: relative;
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    color: #000000;
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    height: 25px;
+    width: 125px;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    background-color: #FFF288;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    margin: 30px;
+}
+label:hover{
+    background-color: #FFE511;
+}
+
+
+
+
+/**************************************** result-graph *********************************************************/
+.result-graph{
+    position: absolute;
+    top: 100%;
+    display: block;
+    margin-bottom: 50px;
+    width: 500px;
+    padding: 0px;
+    background: white;
+    /* the below line is to bring a little shadow effect around a box*/
+    box-shadow: 0 0 5px rgba(198,122,255, 0.5);
+    border-radius: 5px;
+}
+.cards{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 200px;
+    left: 600px;
+}
+.hindi{
+    position: relative;
+    display: grid;
+    height: 3.5rem;
+    width: 3.5rem;
+    opacity: 0.2;
+    border-radius: 2px;
+}
+.hindi p{
+    font-family: 'Ubuntu Mono', monospace;
+    display: grid;
+    font-size: 1.5rem;
+    color: #EFDAB9;
+}
+.gujarati{
+    position: relative;
+    height: 3.5rem;
+    width: 3.5rem;
+    opacity: 0.2;
+    border-radius: 2px;
+}
+.tamil{
+    position: relative;
+    height: 3.5rem;
+    width: 3.5rem;
+    opacity: 0.2;
+    border-radius: 2px;
+}
+.telugu{
+    position: relative;
+    height: 3.5rem;
+    width: 3.5rem;
+    opacity: 0.2;
+    border-radius: 2px;
+}
+
+
+
+
+
+/******************************button************************/
+.btn{
+    height: 40px;
+    text-transform: uppercase;
+    width: 160px;
+    color: #000;
+    background-color: #FFF288;
+    border: #000000 solid 1px;
+    padding: 10px;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #FFE511;
+    animation: b09_electric_blinkIn 0.1s step-end 0 2;
+    -webkit-animation: b09_electric_blinkIn 0.1s step-end 0 2;
+    -moz-animation: b09_electric_blinkIn 0.1s step-end 0 2;
+    transition: all 0.2s ease 0.2s;
+    -webkit-transition: all 0.2s ease 0.2s;
+    -moz-transition: all 0.2s ease 0.2s;
+}
+
+@-webkit-keyframes btn_blinkIn {
+    from,
+    to {
+        background-color: #f8f8f8;
+        color: #080808;
+    }
+    50% {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+@-moz-keyframes btn_blinkIn {
+    from,
+    to {
+        background-color: #f8f8f8;
+        color: #080808;
+    }
+    50% {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+
+
+
+
+
+
+
+
