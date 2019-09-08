@@ -18,7 +18,7 @@ class Result extends Component{
         };
     }
       componentDidMount() {
-        const url = `http://127.0.0.1:5000/uploads/${this.props.filename}`;
+        const url = `http://127.0.0.1:5000/uploads/${this.props.model_name}/${this.props.model_name}`;
         axios.get(url)
             .then(res => {
 
