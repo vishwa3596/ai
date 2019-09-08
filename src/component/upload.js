@@ -65,7 +65,7 @@ class Upload extends Component{
                 <div>
                     <select onClick={this.addModel}>
                         <option value="resnet">Resnet</option>
-                        <option value="freedforward">Freedforward</option>
+                        <option value="feedforward">Feedforward</option>
                         <option value="transformer">Transformer</option>
                     </select>
                 </div>

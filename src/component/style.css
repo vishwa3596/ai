@@ -144,16 +144,6 @@ label:hover{
     padding: 3px;
     border-radius: 5px;
 }
-.upload-area select:hover:before{
-    background-color: #FFE511;
-    -webkit-filter: blur(5px);
-    filter: blur(5px);
-}
-.upload-area select:hover:after{
-    background-color: #FFE511;
-    -webkit-filter: blur(5px);
-    filter: blur(15px);
-}
 .upload-area select:hover{
     background-color: #FFE511;
     -webkit-filter: blur(1px);
