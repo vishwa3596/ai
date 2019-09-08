@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import axios from "axios"
 import "./style.css"
 import CanvasJSReact from './assets/canvasjs.react';
-import {Link} from "react-router-dom";
 import "./hindi.svg"
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 class Result extends Component{
@@ -96,20 +95,32 @@ class Result extends Component{
                 </div>
                 <br/>
                 <div className="cards">
+                    <div className="hindi-container">
                     <img className="hindi" src={require("./againkaa.jpg")} alt="Hindi"/>
                     <br/>
-                    <p>Hindi: {Math.round(this.state.Hindi*100)}% </p>
-
-                    <img className="gujarati" src={require("./a.jpg")} alt="gujarati"/>
+                    <p>Hindi- {Math.round(this.state.Hindi*100)}% </p>
+                    </div>
+                    <div className="gujarati-container">
+                    <img className="gujarati" src={require("./aaa.PNG")} alt="gujarati"/>
                     <br/>
-                    <p>Gujarati: {Math.round(this.state.Gujarati*100)}%</p>
+                    <p>Gujarati- {Math.round(this.state.Gujarati*100)}%</p>
+                    </div>
+                    <div className="telugu-container">
                     <img className="telugu" src={require("./telu again.PNG")} alt="telugu"/>
                     <br/>
-                    <p>Telugu: {Math.round(this.state.Telugu*100)}%</p>
-                    <img className="tamil" src={require("./tamil.PNG")} alt="Tamil"/>
+                    <p>Telugu- {Math.round(this.state.Telugu*100)}%</p>
+                    </div>
+                        <div className="tamil-container">
+                        <img className="tamil" src={require("./tamil.PNG")} alt="Tamil"/>
                     <br/>
-                    <p>Tamil: {Math.round(this.state.Tamil*100)}%</p>
-                </div>
+                    <p>Tamil- {Math.round(this.state.Tamil*100)}%</p>
+                        </div>
+                    <div className="marathi-container">
+                        <img className="marathi" src={require("./marathi aa.PNG")} alt="marathi"/>
+                        <br/>
+                        <p>Marathi - {Math.round(this.state.Marathi*100)}%</p>
+                    </div>
+                        </div>
             </div>
             </div>
         );

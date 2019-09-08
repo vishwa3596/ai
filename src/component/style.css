@@ -151,7 +151,7 @@ label:hover{
     position: absolute;
     display: flex;
     justify-content: space-evenly;
-    top: 200px;
+    top: 175px;
     left: 600px;
 }
 .hindi{
@@ -161,11 +161,17 @@ label:hover{
     width: 3.5rem;
     opacity: 0.2;
     border-radius: 2px;
+    margin: 15px;
 }
-.hindi p{
+.hindi:hover{
+    background-color: #333333;
+    opacity: 0.3;
+}
+.hindi-container p{
     font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
     display: grid;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     color: #EFDAB9;
 }
 .gujarati{
@@ -174,6 +180,47 @@ label:hover{
     width: 3.5rem;
     opacity: 0.2;
     border-radius: 2px;
+    margin: 15px;
+}
+.gujarati-container p{
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    display: grid;
+    font-size: 0.7rem;
+    color: #EFDAB9;
+}
+.gujarati:hover{
+    background-color: #333333;
+    opacity: 0.3;
+}
+.marathi{
+    position: relative;
+    height: 3.5rem;
+    width: 3.5rem;
+    opacity: 0.2;
+    border-radius: 2px;
+    margin: 15px;
+}
+.marathi-container{
+    display: grid;
+    background-color: #343233;
+    height: auto;
+    width: auto;
+}
+.marathi-container p{
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    display: grid;
+    font-size: 0.7rem;
+    color: #EFDAB9;
+}
+.marathi:hover{
+    background-color: #333333;
+    opacity: 0.3;
+}
+.marathi-container:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 2px rgba(198,122,255, 0.5);
 }
 .tamil{
     position: relative;
@@ -181,6 +228,18 @@ label:hover{
     width: 3.5rem;
     opacity: 0.2;
     border-radius: 2px;
+    margin: 15px;
+}
+.tamil-container p{
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    display: grid;
+    font-size: 0.7rem;
+    color: #EFDAB9;
+}
+.tamil:hover{
+    background-color: #333333;
+    opacity: 0.3;
 }
 .telugu{
     position: relative;
@@ -188,6 +247,49 @@ label:hover{
     width: 3.5rem;
     opacity: 0.2;
     border-radius: 2px;
+    margin: 15px;
+}
+.telugu-container p{
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    display: grid;
+    font-size: 0.7rem;
+    color: #EFDAB9;
+}
+.telugu:hover{
+    background-color: #333333;
+    opacity: 0.3;
+}
+.hindi-container{
+    display: grid;
+    background-color: #343233;
+    height: auto;
+    width: auto;
+}
+.hindi-container:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 2px rgba(198,122,255, 0.5);
+}
+.gujarati-container{
+    display: grid;
+}
+.gujarati-container:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 2px rgba(198,122,255, 0.5);
+}
+.telugu-container{
+    display: grid;
+}
+.telugu-container:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 2px rgba(198,122,255, 0.5);
+}
+.tamil-container{
+    display: grid;
+}
+.tamil-container:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 2px rgba(198,122,255, 0.5);
 }
 
 
