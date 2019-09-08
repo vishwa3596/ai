@@ -23,8 +23,8 @@ class Upload extends Component{
           }))
       }
     };
-    addFile = (e) => {
-        e.preventDefault();
+    addFile = () => {
+
         console.log("the model name is ", this.state.model_name);
         const data = new FormData();
         data.append('file', this.uploadInput.files[0]);

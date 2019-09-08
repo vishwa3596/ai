@@ -22,8 +22,7 @@ class Result extends Component{
         axios.get(url)
             .then(res => {
 
-                console.log(res.data.Hindi, res.data.Marathi,
-                    res.data.Tamil, res.data.Telugu, res.data.gujarati
+                console.log(res)
                     );
                 this.setState(() => ({
                     Hindi: res.data.Hindi,
