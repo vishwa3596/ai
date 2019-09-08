@@ -133,6 +133,32 @@ label{
 label:hover{
     background-color: #FFE511;
 }
+.upload-area select{
+    background-color: #FFF288;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 0.7rem;
+    height: 40px;
+    text-transform: uppercase;
+    width: 160px;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+.upload-area select:hover:before{
+    background-color: #FFE511;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+.upload-area select:hover:after{
+    background-color: #FFE511;
+    -webkit-filter: blur(5px);
+    filter: blur(15px);
+}
+.upload-area select:hover{
+    background-color: #FFE511;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
 
 
 
