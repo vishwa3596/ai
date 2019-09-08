@@ -22,8 +22,8 @@ class Result extends Component{
         axios.get(url)
             .then(res => {
 
-                console.log(res)
-                    );
+                console.log(res);
+
                 this.setState(() => ({
                     Hindi: res.data.Hindi,
                     Marathi: res.data.Marathi,
@@ -127,3 +127,5 @@ class Result extends Component{
 }
 
 export default Result;
+
+
