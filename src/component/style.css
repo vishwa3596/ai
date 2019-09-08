@@ -401,6 +401,18 @@ label:hover{
     color: #EFDAB9;
     box-shadow: 0 0 2px rgba(198,122,255, 0.5);
 }
+.div3 .link1{
+    color: #EFDAB9;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 5px;
+    margin: 5px;
+}
+.div3 .link2{
+    padding: 5px;
+    margin: 5px;
+    color: #EFDAB9;
+    font-family: 'Ubuntu Mono', monospace;
+}
 
 
 

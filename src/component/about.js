@@ -9,7 +9,7 @@ class About extends Component {
                 </h2>
             <div className="about1">
                 <div className="div1">
-                <p>This is the project which predicts the language accorcing to the audio file uploaded.
+                <p>This is the project which predicts the language according to the audio file uploaded.
                     <br/>
                     <br/>
                     <br/>
@@ -58,6 +58,10 @@ class About extends Component {
                 <div className="div3">
                     <p>
                         Demo
+                        <br/>
+                        <a className="link1" href="https://www.youtube.com/watch?v=QeoSnP1sPi8&feature=youtu.be"> Installation Demo </a>
+                        <br/>
+                        <a className="link2" href="https://www.youtube.com/watch?v=MvLY-kLlE2k&feature=youtu.be"> Working Demo </a>
                     </p>
                 </div>
             </div>
